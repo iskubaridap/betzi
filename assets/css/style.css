@@ -1,0 +1,717 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Gentium+Basic:wght@700&family=Poppins:wght@300&family=Rubik:wght@700&family=Teko:wght@700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap";
+
+html {
+    height: 100%;
+}
+body {
+    color: #dcb667;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    background-color: #000;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: url(../img/bg.jpg), url(../img/bg.jpg), url(../img/bg.jpg);
+    background-size: 1430px auto, 1430px auto, 1430px auto;
+    background-position: center -166px, center 48px, center 836px;
+    background-repeat: no-repeat;
+}
+#main-content {
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
+    /* background-color: rgba(0,0,0,0.8); */
+    border-radius: 20px;
+
+    /* background-image: url(../img/bg.jpg);
+    background-size: 1430px auto;
+    background-position: center -100px;
+    background-repeat: no-repeat; */
+}
+/* #special-bg {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: url(../img/bg-3.jpg);
+    background-size: 1430px auto;
+    background-position: center -100px;
+    background-repeat: no-repeat;
+} */
+#bg-img {
+    margin: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/cards-chips-bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: -1;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.ccc-logo {
+    padding-bottom: 20px;
+}
+.ccc-logo img {
+    width: 350px;
+}
+#tmp-logo {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    border-radius: 1000px;
+    font-size: 3em;
+    font-family: fantasy;
+    background-color: #fff;
+    width: 300px;
+}
+#exclusive-offer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(180deg, #b50000 0, #d50000 50%, #b50000 100%);
+    /* background-color: #d50000; */
+    color: #fed328;
+    position: absolute;
+    top: 4px;
+    width: calc(100% - 12px);
+    border-radius: 10px 10px 0 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.25);
+}
+.reg-txt {
+    color: #6c757d;
+    font-size: 1.75em;
+}
+#free-chances {
+    background-color: #6d0000;
+    padding: 8px 15px 5px 15px;
+    line-height: 1;
+    font-weight: 700;
+    color: #fed328;
+    font-size: 1.75em;
+    border-radius: 5px;
+}
+#jackpot-winner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(180deg, #f9ba00 0, #fed328 50%, #f9ba00 100%);
+    color: #6e4404;
+    position: absolute;
+    bottom: 4px;
+    width: calc(100% - 12px);
+    border-radius: 0 0 10px 10px;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.25);
+}
+.section-message {
+    position: relative;
+    width: 100%;
+    color: #fff;
+    font-size: 1.75em;
+    text-align: center;
+    border-radius: 8px;
+    z-index: 1;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.section-message .message-container {
+    position: relative;
+    background: linear-gradient(135deg, #ede1c6 0, #c68b21 20%, #d2a74b 50%, #c28818 80%, #ede1c6 100%);
+    border-radius: 10px;
+    padding: 20px;
+}
+.section-message .message-container::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background-color: #da0b00;
+    -webkit-box-shadow: inset 0 0 50px 20px #000;
+    box-shadow: inset 0 0 50px 20px #000;
+    border-radius: 7px;
+}
+.section-message .message-container .message-container-inner {
+    position: relative;
+    z-index: 10;
+}
+.u__text--outline {
+    text-shadow: 1px -1px #000, -1px -1px #000, -1px 1px #000, -1px -1px #000, 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000, 1px 1px #000, -1px 1px #000, 1px 1px #000, 1px -1px #000;
+}
+.u__color--yellow {
+    color: #fed328;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.box-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    line-height: 1.4em;
+    font-size: 18px;
+    border-radius: 10px;
+    -webkit-animation: none;
+    animation: none;
+    background: linear-gradient(135deg, #ede1c6 0, #c68b21 20%, #d2a74b 50%, #c28818 80%, #ede1c6 100%);
+}
+.box-content.box-content-offer::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background-color: #da0b00;
+    -webkit-box-shadow: inset 0 0 50px 20px #000;
+    box-shadow: inset 0 0 50px 20px #000;
+    border-radius: 7px;
+}
+.box-content .box-content-inner {
+    position: relative;
+    z-index: 10;
+    padding: 5px;
+}
+.u__text--uppercase {
+    text-transform: uppercase;
+}
+.u__text--larger {
+    font-size: 1.8em;
+}
+.u__color--yellow {
+    color: #fed328;
+}
+.box-content .banner-free-chances {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 8px 15px 5px 15px;
+    line-height: 1;
+    font-weight: 700;
+}
+.u__text--large {
+    font-size: 1.5em;
+}
+.box-content .banner-jackpot {
+    width: 100%;
+    background-color: #fed328;
+    text-align: center;
+    line-height: 1;
+    color: #000;
+    font-weight: 900;
+    font-size: 35px;
+    padding: 5px 15px;
+}
+/* .box-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    line-height: 1.4em;
+    font-size: 18px;
+    border-radius: 10px;
+    -webkit-animation: none;
+    animation: none;
+    background: linear-gradient(135deg, #ede1c6 0, #c68b21 20%, #d2a74b 50%, #c28818 80%, #ede1c6 100%);
+}
+.box-content.box-content-offer::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background: linear-gradient(-135deg, #8d8d8d 0, #c4c4c4 20%, #ffffff 50%, #c4c4c4 80%, #8d8d8d 100%);
+    border-radius: 7px;
+}
+.box-content .box-content-inner {
+    position: relative;
+    z-index: 10;
+    padding: 5px;
+} */
+.main-video {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    display: block;
+    border-radius: 5px;
+}
+.section-main-game {
+    /* background-image: url(../img/coins-underlay.fs8.png), url(../img/sparks-underlay.fs8.png), url(../img/bg.jpg);
+    background-position: center calc(100% - 30px), center calc(50% + 100px), center center;
+    background-size: 660px auto, 910px auto, auto 100%;
+    background-repeat: no-repeat; */
+    background-image: url(../img/coins-underlay.fs8.png), url(../img/sparks-underlay.fs8.png);
+    background-position: center calc(100% - 30px), center calc(50% + 100px);
+    background-size: 660px auto, 910px auto;
+    background-repeat: no-repeat;
+}
+.section-main-game::after {
+    pointer-events: none;
+    content: "";
+    width: 430px;
+    height: 140px;
+    background-image: url(../img/coins-overlay.fs8.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.section-spin-now-below {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    display: block;
+    width: 300px;
+    margin: 20px auto 10px;
+    padding: 30px 10px 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #d50000;
+    -webkit-animation: kf-mw1_background-glow 1s ease infinite;
+    animation: kf-mw1_background-glow 1s ease infinite;
+    cursor: pointer;
+    border-radius: 0 0 5px 5px;
+}
+.section-spin-now-below::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 98%;
+    border-top-width: 30px;
+    border-top-style: solid;
+    border-top-color: #ffb629;
+    border-right: 150px solid transparent;
+    border-left: 150px solid transparent;
+    -webkit-animation: kf-mw1_border-glow 1s ease infinite;
+    animation: kf-mw1_border-glow 1s ease infinite;
+}
+.section-spin-now-below .fa {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+}
+.section-spin-now-below .fa-right-arrow {
+    left: 90%;
+}
+.u__text--outline {
+    text-shadow: 1px -1px #000, -1px -1px #000, -1px 1px #000, -1px -1px #000, 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000, 1px 1px #000, -1px 1px #000, 1px 1px #000, 1px -1px #000;
+}
+
+.jackpot-graphic {
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url(../img/jackpot-header.fs8.png);
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 590px;
+    font-size: 42px;
+}
+.jackpot-graphic::after {
+    content: "";
+    display: block;
+    padding-bottom: 38.3656509695%;
+}
+.jackpot-graphic span {
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#not-real-money {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: #fff;
+    color: #6e4404;
+    font-size: 1.2em;
+    border-radius: 5px;
+    max-width: 660px;
+}
+.styled-text {
+    position: relative;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    -webkit-text-stroke: 1px #000;
+    white-space: nowrap;
+}
+.styled-text::after {
+    background: 0 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: attr(data-text);
+    position: absolute;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: -1;
+    -webkit-text-stroke: #ffbf0f 4px;
+    text-shadow: 0 5px 10px #000;
+    white-space: nowrap
+}
+#bg-overlay {
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: rgba(36, 36, 36, .8);
+    opacity: .9;
+}
+.stage-2 {
+    padding: 20px;
+    z-index: 11;
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    display: none;
+    width: 100%;
+    max-width: 500px;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    background: linear-gradient(135deg, #ede1c6 0, #c68b21 20%, #d2a74b 50%, #c28818 80%, #ede1c6 100%);
+}
+.stage-2::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background: linear-gradient(-135deg, #8f0700 0, #b50900 20%, #da0b00 50%, #b50900 80%, #8f0700 100%);
+    border-radius: 7px;
+    z-index: -1;
+}
+.stage-2-txt-size {
+    font-size: 1.5em;
+}
+.stage-2-txt-size-2 {
+    font-size: 1.4em;
+}
+#first-round, #last-round, #questions, #screen-pes {
+    display: none;
+    position: relative;
+    z-index: 10;
+}
+#questions #question-2, #questions #question-3 {
+    display: none;
+}
+.graphic--prize {
+    width: 150px;
+    max-width: 100%;
+}
+.question-heading {
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffd428;
+    color: #6e4404;
+    font-size: 1.75em;
+    max-width: 290px;
+    border-radius: 100px;
+}
+.question-txt {
+    margin-bottom: 50px;
+    font-size: 1.5em;
+}
+#questions .answers {
+    padding-left: 0;
+    counter-reset: list;
+}
+#questions .answers>li {
+    position: relative;
+    list-style: none;
+}
+#questions .btn--answer {
+    max-width: 290px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: .375rem .75rem;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#questions .btn--answer:hover {
+    background: #ffd428;
+    color: #6e4404;
+}
+#questions .circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px 2px;
+    padding: 6px;
+    background: #fff;
+    border-radius: 50%;
+}
+#questions .answers>li::before {
+    content: counter(list, lower-alpha) ") ";
+    position: absolute;
+    left: 10px;
+    color: #534b3c;
+    counter-increment: list;
+    font-weight: bold;
+}
+#questions .circle-active {
+    background: #ffd428;
+}
+.jackpot-graphic.jackpot-graphic-small {
+    width: 250px;
+    font-size: 21px;
+}
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer a {
+    color: #dcb667;
+}
+
+@-webkit-keyframes kf-mw1_background-glow {
+    0% {
+        background-color: #ffb629
+    }
+
+    50% {
+        background-color: #ffe26c
+    }
+
+    100% {
+        background-color: #ffb629
+    }
+}
+
+@keyframes kf-mw1_background-glow {
+    0% {
+        background-color: #ffb629
+    }
+
+    50% {
+        background-color: #ffe26c
+    }
+
+    100% {
+        background-color: #ffb629
+    }
+}
+
+@-webkit-keyframes kf-mw1_border-glow {
+    0% {
+        border-top-color: #ffb629
+    }
+
+    50% {
+        border-top-color: #ffe26c
+    }
+
+    100% {
+        border-top-color: #ffb629
+    }
+}
+
+@keyframes kf-mw1_border-glow {
+    0% {
+        border-top-color: #ffb629
+    }
+
+    50% {
+        border-top-color: #ffe26c
+    }
+
+    100% {
+        border-top-color: #ffb629
+    }
+}
+@media (max-width: 1400px) {
+    body {
+        background-position: center -810px, center -10px, center 780px;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        background-position: center -810px, center -32px, center 760px;
+    }
+    #exclusive-offer,
+    #jackpot-winner {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 1.5em;
+    }
+    #free-chances.my-4 {
+        margin-top: 0.8rem !important;
+        margin-bottom: 0.8rem !important;
+    }
+    .reg-txt,
+    #free-chances {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        background-position: center -810px, center -75px, center 716px;
+    }
+    .section-main-game {
+        background-size: 660px auto, 715px auto;
+        background-position: center calc(100% - 30px), center calc(50% + 100px);
+    }
+    #exclusive-offer,
+    #jackpot-winner {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 1.15em;
+    }
+    #free-chances.my-4 {
+        margin-top: 0.4rem !important;
+        margin-bottom: 0.4rem !important;
+    }
+    .reg-txt,
+    #free-chances {
+        font-size: 1em;
+    }
+}
+@media (max-width: 991.98px) {
+    .box-content .banner-jackpot {
+        font-size: 25px;
+    }
+    .u__text--large {
+        font-size: 1.33em;
+    }
+    .u__text--larger {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-position: center -810px, center -28px, center 766px;
+    }
+    .section-main-game {
+        background-size: 380px auto, 510px auto, auto 100%;
+        background-position: center calc(100% - 30px), center calc(50% + 50px), center center;
+    }
+    .jackpot-graphic {
+        width: 350px;
+        font-size: 24px;
+    }
+    .section-main-game::after {
+        width: 300px;
+        height: 85px;
+    }
+    #exclusive-offer,
+    #jackpot-winner {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 1.75em;
+    }
+    #free-chances.my-4 {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+    .reg-txt,
+    #free-chances {
+        font-size: 1.5em;
+    }
+    .box-content-inner.h-100 {
+        height: 255px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    /* #special-bg {
+        background-image: url(../img/bg-4.jpg);
+        background-size: 1430px auto;
+        background-position: center -305px;
+        background-repeat: no-repeat;
+    } */
+    #exclusive-offer,
+    #jackpot-winner {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 1.75em;
+    }
+    #free-chances.my-4 {
+        margin-top: 0.8rem !important;
+        margin-bottom: 0.8rem !important;
+    }
+    .reg-txt,
+    #free-chances {
+        font-size: 1.25em;
+    }
+    .stage-2 {
+        max-width: unset;
+        width: calc(100% - 40px);
+    }
+    .jackpot-graphic.jackpot-graphic-small {
+        font-size: 19px;
+    }
+}

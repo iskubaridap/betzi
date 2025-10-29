@@ -1,0 +1,218 @@
+*,
+::after,
+::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+.pointer {
+    position: absolute;
+    display: block;
+    width: 100px;
+    left: calc(50% + 190px);
+    top: calc(50% - 56px);
+}
+.wheel-button {
+    color: #fff;
+}
+.section-main-game {
+    padding-top: 20px;
+    /* padding-top: 60px; */
+    padding-bottom: 50px;
+    /* margin-top: -90px; */
+    overflow: hidden;
+    position: relative;
+}
+.wheel-base {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    margin: 0 auto;
+    pointer-events: none;
+    background-image: url(../img/wheel-on.fs8.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    -webkit-animation: wheel-flash 1s steps(2, jump-none) infinite;
+    animation: wheel-flash 1s steps(2, jump-none) infinite;
+}
+.wheel-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../img/wheel-button.fs8.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    width: 230px;
+    text-shadow: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: .9;
+    z-index: 10;
+}
+.wheel-button::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.spinner-container {
+    position: relative;
+    overflow: hidden;
+    margin: -30px auto 10px
+}
+.spinner {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 34px 35.5px 35px 35px;
+}
+.spinner.spinAround {
+    -webkit-animation: kf-mw1_spin 6.2s;
+    animation: kf-mw1_spin 6.2s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-direction: normal;
+    animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
+@-webkit-keyframes kf-mw1_spin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    90% {
+        -webkit-transform: rotate(3120deg);
+        transform: rotate(3120deg)
+    }
+
+    95% {
+        -webkit-transform: rotate(3118deg);
+        transform: rotate(3118deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(3115deg);
+        transform: rotate(3115deg)
+    }
+}
+
+@keyframes kf-mw1_spin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    90% {
+        -webkit-transform: rotate(3120deg);
+        transform: rotate(3120deg)
+    }
+
+    95% {
+        -webkit-transform: rotate(3118deg);
+        transform: rotate(3118deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(3115deg);
+        transform: rotate(3115deg)
+    }
+}
+@-webkit-keyframes wheel-flash {
+    0% {
+        background-image: url(../img/wheel-on.fs8.png)
+    }
+
+    100% {
+        background-image: url(../img/wheel-off.fs8.png)
+    }
+}
+
+@keyframes wheel-flash {
+    0% {
+        background-image: url(../img/wheel-on.fs8.png)
+    }
+
+    100% {
+        background-image: url(../img/wheel-off.fs8.png)
+    }
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    90% {
+        -webkit-transform: rotate(3029deg);
+        transform: rotate(3029deg)
+    }
+
+    95% {
+        -webkit-transform: rotate(3027deg);
+        transform: rotate(3027deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(3028deg);
+        transform: rotate(3028deg)
+    }
+}
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+    .spinner {
+        padding: 15px 16px 16px 16px;
+        width: 280px;
+    }
+    .wheel-button {
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 132px;
+        font-size: 12px;
+    }
+    .pointer {
+        left: calc(50% + 104px);
+        top: calc(50% - 33px);
+        width: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+
+}
+
+
+

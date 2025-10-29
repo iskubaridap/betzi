@@ -1,0 +1,529 @@
+body {
+    background-color: #000;
+}
+
+body[data-pagetheme=mv1][data-contentvariation*=ccc-] .section-main-game {
+    position: relative;
+    background-image: url(/Content/themes/mgw/shared/images/mv1/ccc/ccc-wheel-background.fs8.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin-top: -90px;
+    background-size: 910px auto
+}
+
+@media (max-width:991.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=ccc-] .section-main-game {
+        background-size: 850px auto
+    }
+}
+
+@media (max-width:767.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=ccc-] .section-main-game {
+        background-size: 530px auto
+    }
+}
+
+body[data-pagetheme=mv1][data-contentvariation*=ccc-] .section-main-game::after {
+    pointer-events: none;
+    content: "";
+    width: 300px;
+    height: 70px;
+    background-image: url(/Content/themes/mgw/shared/images/mv1/ccc/ccc-wheel-cash.fs8.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+@media (max-width:767.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=ccc-] .section-main-game::after {
+        width: 200px;
+        bottom: 24px
+    }
+}
+body[data-pagetheme=mv1][data-contentvariation*=yg-] .section-main-game {
+    position: relative;
+    background-image: url(/Content/themes/mgw/shared/images/mv1/ccc/ccc-wheel-background.fs8.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin-top: -90px;
+    background-size: 910px auto
+}
+
+@media (max-width:991.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=yg-] .section-main-game {
+        background-size: 850px auto
+    }
+}
+
+@media (max-width:767.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=yg-] .section-main-game {
+        background-size: 530px auto
+    }
+}
+
+body[data-pagetheme=mv1][data-contentvariation*=yg-] .section-main-game::after {
+    pointer-events: none;
+    content: "";
+    width: 300px;
+    height: 70px;
+    background-image: url(/Content/themes/mgw/shared/images/mv1/ccc/ccc-wheel-cash.fs8.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+@media (max-width:767.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=yg-] .section-main-game::after {
+        width: 200px;
+        bottom: 24px
+    }
+}
+body[data-pagetheme=mv1][data-contentvariation*=cos-] .section-main-game {
+    position: relative;
+    background-image: url(/Content/themes/mgw/shared/images/mv1/ccc/ccc-wheel-background.fs8.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin-top: -90px;
+    background-size: 910px auto
+}
+
+@media (max-width:991.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=cos-] .section-main-game {
+        background-size: 850px auto
+    }
+}
+
+@media (max-width:767.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=cos-] .section-main-game {
+        background-size: 530px auto
+    }
+}
+
+body[data-pagetheme=mv1][data-contentvariation*=cos-] .section-main-game::after {
+    pointer-events: none;
+    content: "";
+    width: 300px;
+    height: 70px;
+    background-image: url(/Content/themes/mgw/shared/images/mv1/ccc/ccc-wheel-cash.fs8.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+@media (max-width:767.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=cos-] .section-main-game::after {
+        width: 200px;
+        bottom: 24px
+    }
+}
+body[data-pagetheme=mv1][data-contentvariation*=ck-] .section-main-game {
+    position: relative;
+    background-image: url(/Content/themes/mgw/shared/images/mv1/ccc/ccc-wheel-background.fs8.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin-top: -90px;
+    background-size: 910px auto
+}
+
+@media (max-width:991.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=ck-] .section-main-game {
+        background-size: 850px auto
+    }
+}
+
+@media (max-width:767.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=ck-] .section-main-game {
+        background-size: 530px auto
+    }
+}
+
+body[data-pagetheme=mv1][data-contentvariation*=ck-] .section-main-game::after {
+    pointer-events: none;
+    content: "";
+    width: 300px;
+    height: 70px;
+    background-image: url(/Content/themes/mgw/shared/images/mv1/ccc/ccc-wheel-cash.fs8.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+@media (max-width:767.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=ck-] .section-main-game::after {
+        width: 200px;
+        bottom: 24px
+    }
+}
+body[data-pagetheme=mw1] .section-main-game {
+    overflow: hidden;
+    position: relative;
+    background-image: url(../img/coins-underlay.fs8.png), url(../img/sparks-underlay.fs8.png), url(../img/bg.jpg);
+    background-position: center calc(100% - 30px), center calc(50% + 100px), center center;
+    background-size: 660px auto, 910px auto, auto 100%;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin-top: -90px
+}
+
+@media (max-width:767.98px) {
+    body[data-pagetheme=mw1] .section-main-game {
+        background-size: 380px auto, 510px auto, auto 100%;
+        background-position: center calc(100% - 30px), center calc(50% + 50px), center center
+    }
+}
+
+body[data-pagetheme=mw1] .section-main-game::after {
+    pointer-events: none;
+    content: "";
+    width: 430px;
+    height: 140px;
+    background-image: url(../img/coins-overlay.fs8.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+@media (max-width:767.98px) {
+    body[data-pagetheme=mw1] .section-main-game::after {
+        width: 300px;
+        height: 85px
+    }
+}
+/* ===================== */
+body[data-pagetheme=mv1] .spinner-container,
+body[data-pagetype=reaction][data-pagetheme=ck] .spinner-container {
+    position: relative;
+    overflow: hidden;
+    margin: -30px auto 10px
+}
+body[data-pagetheme=mv1][data-contentvariation*=ccc-] .spinner-container {
+    margin: -50px auto 10px auto
+}
+body[data-pagetheme=mv1][data-contentvariation*=yg-] .spinner-container {
+    margin: -50px auto 10px auto
+}
+body[data-pagetheme=mv1][data-contentvariation*=cos-] .spinner-container {
+    margin: -50px auto 10px auto
+}
+body[data-pagetheme=mv1][data-contentvariation*=ck-] .spinner-container {
+    margin: -50px auto 10px auto
+}
+body[data-pagetheme=mv2] .spinner-container,
+body[data-pagetype=spin][data-pagetheme=ck] .spinner-container {
+    display: none;
+    z-index: 50;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+@media (max-width:767.98px) {
+
+    body[data-pagetheme=mv2] .spinner-container,
+    body[data-pagetype=spin][data-pagetheme=ck] .spinner-container {
+        overflow: hidden;
+        margin: 0 -30px
+    }
+}
+body[data-pagetheme=bw1] .spinner-container {
+    position: relative;
+    overflow: hidden;
+    margin: 0 -15px
+}
+body[data-pagetheme=mw1] .spinner-container {
+    position: relative;
+    overflow: hidden;
+    margin: -30px auto 10px
+}
+body[data-pagetheme=mw1] .spinner-container {
+    margin: -30px auto 10px auto
+}
+body[data-contentvariation=s150-c1] .message-box--phase-3,
+body[data-contentvariation=s150-c1] .phase--1,
+body[data-contentvariation=s150-c1] .phase--2,
+body[data-contentvariation=s150-c1] .spinner-container {
+    display: none
+}
+
+/* ======================== */
+body[data-pagetheme=mv1] .wheel-button,
+body[data-pagetype=reaction][data-pagetheme=ck] .wheel-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 180px;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    background-image: url(/Content/themes/mgw/shared/images/mv1/button.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    text-shadow: 2px 3px 2px #6f491a;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:2),
+screen and (min-resolution:2dppx) {
+
+    body[data-pagetheme=mv1] .wheel-button,
+    body[data-pagetype=reaction][data-pagetheme=ck] .wheel-button {
+        background-image: url(/Content/themes/mgw/shared/images/mv1/button_2x.png)
+    }
+}
+
+@media (max-width:991.98px) {
+
+    body[data-pagetheme=mv1] .wheel-button,
+    body[data-pagetype=reaction][data-pagetheme=ck] .wheel-button {
+        width: 170px
+    }
+}
+
+@media (max-width:767.98px) {
+
+    body[data-pagetheme=mv1] .wheel-button,
+    body[data-pagetype=reaction][data-pagetheme=ck] .wheel-button {
+        left: 50%;
+        width: 101px;
+        font-size: 13px;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%)
+    }
+}
+
+body[data-pagetheme=mv1] .wheel-button::after,
+body[data-pagetype=reaction][data-pagetheme=ck] .wheel-button::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%
+}
+body[data-pagetheme=mv1][data-contentvariation*=ccc-] .wheel-button {
+    width: 262px;
+    text-shadow: none;
+    color: #29434b;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: .9;
+    background-image: url(/Content/themes/mgw/shared/images/mv1/ccc/ccc-wheel-button.fs8.png)
+}
+
+@media (max-width:991.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=ccc-] .wheel-button {
+        width: 234px
+    }
+}
+
+@media (max-width:767.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=ccc-] .wheel-button {
+        width: 142px;
+        font-size: 17px
+    }
+}
+body[data-pagetheme=mv1][data-contentvariation*=yg-] .wheel-button {
+    width: 262px;
+    text-shadow: none;
+    color: #29434b;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: .9;
+    background-image: url(/Content/themes/mgw/shared/images/mv1/ccc/ccc-wheel-button.fs8.png)
+}
+
+@media (max-width:991.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=yg-] .wheel-button {
+        width: 234px
+    }
+}
+
+@media (max-width:767.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=yg-] .wheel-button {
+        width: 142px;
+        font-size: 17px
+    }
+}
+body[data-pagetheme=mv1][data-contentvariation*=cos-] .wheel-button {
+    width: 262px;
+    text-shadow: none;
+    color: #29434b;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: .9;
+    background-image: url(/Content/themes/mgw/shared/images/mv1/ccc/ccc-wheel-button.fs8.png)
+}
+
+@media (max-width:991.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=cos-] .wheel-button {
+        width: 234px
+    }
+}
+
+@media (max-width:767.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=cos-] .wheel-button {
+        width: 142px;
+        font-size: 17px
+    }
+}
+body[data-pagetheme=mv1][data-contentvariation*=ck-] .wheel-button {
+    width: 262px;
+    text-shadow: none;
+    color: #29434b;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: .9;
+    background-image: url(/Content/themes/mgw/shared/images/mv1/ccc/ccc-wheel-button.fs8.png)
+}
+
+@media (max-width:991.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=ck-] .wheel-button {
+        width: 234px
+    }
+}
+
+@media (max-width:767.98px) {
+    body[data-pagetheme=mv1][data-contentvariation*=ck-] .wheel-button {
+        width: 142px;
+        font-size: 17px
+    }
+}
+body[data-pagetheme=mv2] .wheel-button-contain,
+body[data-pagetype=spin][data-pagetheme=ck] .wheel-button-contain {
+    cursor: pointer;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+body[data-pagetheme=mv2] .wheel-button,
+body[data-pagetype=spin][data-pagetheme=ck] .wheel-button {
+    position: relative;
+    width: 135px;
+    cursor: pointer;
+    background-image: url(/Content/themes/mgw/shared/images/mv2/button.png);
+    background-position: center center;
+    background-size: 110%;
+    border-radius: 999px;
+    -webkit-animation: pulseButton 1s ease-in-out 0s infinite alternate;
+    animation: pulseButton 1s ease-in-out 0s infinite alternate
+}
+
+@media (max-width:991.98px) {
+
+    body[data-pagetheme=mv2] .wheel-button,
+    body[data-pagetype=spin][data-pagetheme=ck] .wheel-button {
+        width: 100px
+    }
+}
+
+@media (max-width:767.98px) {
+
+    body[data-pagetheme=mv2] .wheel-button,
+    body[data-pagetype=spin][data-pagetheme=ck] .wheel-button {
+        width: 52px
+    }
+}
+
+body[data-pagetheme=mv2] .wheel-button::after,
+body[data-pagetype=spin][data-pagetheme=ck] .wheel-button::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%
+}
+
+body[data-pagetheme=mv2] .wheel-button-label,
+body[data-pagetype=spin][data-pagetheme=ck] .wheel-button-label {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+    word-break: break-all;
+    text-align: center
+}
+
+@media (max-width:991.98px) {
+
+    body[data-pagetheme=mv2] .wheel-button-label,
+    body[data-pagetype=spin][data-pagetheme=ck] .wheel-button-label {
+        font-size: 20px
+    }
+}
+
+@media (max-width:767.98px) {
+
+    body[data-pagetheme=mv2] .wheel-button-label,
+    body[data-pagetype=spin][data-pagetheme=ck] .wheel-button-label {
+        font-size: 14px
+    }
+}
+
+body[data-pagetheme=mv2] .wheel-button-contain.isSpinning .wheel-button,
+body[data-pagetype=spin][data-pagetheme=ck] .wheel-button-contain.isSpinning .wheel-button {
+    -webkit-animation: none;
+    animation: none
+}
+
+body[data-pagetheme=mv2] .wheel-button-contain.isSpinning .wheel-button-label,
+body[data-pagetype=spin][data-pagetheme=ck] .wheel-button-contain.isSpinning .wheel-button-label {
+    display: none
+}
